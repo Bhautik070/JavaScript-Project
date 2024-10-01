@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'poppnis',sans-serif;
+    box-sizing: border-box;
+}
+
+body,.time{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body{
+    min-height: 100vh;
+    background: rgb(61, 59, 64);
+}
+
+.digital-clock{
+    
+    width: 425px;
+    padding: 20px 45px;
+    box-shadow: 0 5px 25px rgba(209, 248, 234, 0.9);
+    border-radius: 10px;
+    background: url(https://1.bp.blogspot.com/-LJGmRZnTSQg/XxRXVq6Gd6I/AAAAAAAAADk/b1ImG_9ulysLZg6-LQ3UnZKPCtxeNhJ2QCLcBGAsYHQ/s423/Peacock%2BFan.png) ;
+    background-color: var(--clr);
+
+}
+
+#hours{
+    font-weight: 600px;
+    padding: 0 10px;
+    line-height: 125px;
+    font-size: 8rem;
+}
+
+.right-side{
+    flex-direction: column;
+}
+
+#dots{
+    font-size: 5rem;
+    font-weight: 500;
+    color: rgb(219, 168, 246);
+}
+
+#minutes{
+    font-size: 5rem;
+    font-weight: 500;
+    margin-left: 10px;
+}
+
+.right-down{
+    margin-left: 10px;
+    transform: translateY(-20px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 5vh;
+}
+
+#period, #seconds{
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-left: 20px;
+
+}
+
+#minutes {
+    background: linear-gradient(90deg, orchid, rgb(112, 81, 81)); /* Gradient background */
+    -webkit-background-clip: text; 
+    background-clip: text; 
+    -webkit-text-fill-color: transparent; 
+    color: transparent; 
+}
+
+
+#seconds{
+    background: -webkit-linear-gradient(90deg, rgba(225, 230, 226, 0.995),rgb(93, 73, 98));
+    -webkit-background-clip: text; 
+    background-clip: text; 
+    -webkit-text-fill-color: transparent; 
+    color: transparent; 
+}
+
+#hours{
+    background: -webkit-linear-gradient(90deg, rgb(80, 187, 10),rgb(81, 184, 221));
+    -webkit-background-clip: text; 
+    background-clip: text; 
+    -webkit-text-fill-color: transparent; 
+    color: transparent; 
+}
+
+#period{
+    background: -webkit-linear-gradient(90deg, rgb(17, 120, 65),rgb(188, 215, 234));
+    -webkit-background-clip: text; 
+    background-clip: text; 
+    -webkit-text-fill-color: transparent; 
+    color: transparent; 
+}
+
+#currentDate{
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 10px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background: -webkit-linear-gradient(360deg, rgb(97, 88, 116),rgb(166, 115, 220));
+    -webkit-background-clip: text; 
+    background-clip: text; 
+    -webkit-text-fill-color: transparent; 
+    color: transparent; 
+}
+
+h1{
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 10px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background: -webkit-linear-gradient(90deg, rgb(31, 126, 92),rgb(187, 202, 213));
+    -webkit-background-clip: text; 
+    background-clip: text; 
+    -webkit-text-fill-color: transparent; 
+    color: transparent; 
+}
